@@ -67,9 +67,9 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/CptChiler](https://github.com/CptChiler)
 
