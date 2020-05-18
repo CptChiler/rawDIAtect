@@ -1,8 +1,6 @@
  # rawDIAtect
 
-> Short blurb about what your product does.
-
-One to two paragraph statement about your product and what it does.
+This script process the DIA-NN output of any DIA LC-MS run analyzed with the CARD AMD databases and a species background (can be found in ``/Database``). It filter for unique AMR related peptides and only takes a selected amount of them. Furthermore it calculates the TOP-3 precursor quantity and potiental Drug Class spectra. The results are then collected into ``pdf reports``. It can analyze multiple DIA-NN outputs at once and reports every sample individual.  
 
 ## Installation
 
@@ -63,7 +61,7 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 
 ## Release History
 
-* v1
+* v1 (18.05.2020)
 
 ## Meta
 
