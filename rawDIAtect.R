@@ -1,23 +1,23 @@
 
 # set path to DIA-NN quant folder (multiple quants possbile, only .tsv in this folder, subfolders are allowed)
-path_in = "C:/Users/blumenscheitc/Desktop/quants_sorting/full"
+path_in = "../Desktop/rawDIAtect/test_files"
 
 # filter (0 = off)
 pep_filter = 3
 
 
 # whiteliste (1 = on)
-whitelist = 1
+whitelist = 0
 
 # Set Experiment Name (if not leave blank "", no space!) 
-Exp_name = "only_PCR_hits"
+Exp_name = "test_script"
 
 # Set paths for Report (Will create an Folder /Report_*Experiment_Name*)
 # if not leave blank "" , no space! Output will be generated in input folder!
 path_out = ""
 
 # Set path to aro index database (*.tsv)
-path_db_in = "../database/aro_index_DIA.tsv"
+path_db_in = "../Desktop/rawDIAtect/database/aro_index_DIA.tsv"
 
 
 # check Input and Output this scipt overwrites old results!
