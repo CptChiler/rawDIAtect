@@ -13,7 +13,11 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 ```
 The script will install all dependecies upon the first run. Read setup before first run.
 
-Dependecies:
+### Test the script
+
+In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 pdf reports. One is empty the other two contain either VIM-1 or CMY-2.
+
+### Dependecies
  - readr
  - tidyverse
  - profvis
