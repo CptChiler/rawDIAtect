@@ -1,4 +1,4 @@
-# rawDIAtect
+ # rawDIAtect
 
 > Short blurb about what your product does.
 
@@ -33,7 +33,7 @@ Dependecies:
 
 ## Usage example
 
-![Options](https://imgur.com/8STvKgY)
+![options.PNG](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/options.PNG)
 
 ### Setup script and options
 Before the first run setup up the path to the ``aro_index_DIA.tsv``  at the line **A**. Now the script is ready for your DIA-NN files. 
@@ -52,15 +52,14 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 ```
 ## Output
 
-![Main-Page](https://imgur.com/8TnjcVx)
+![Main-Page](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_main_page.png ))
 **A**=AMR gene families, **B**=expected Drug classs spectra, **C**= On top possibly protein isoform and bottom the count of unique peptides.
 
-![Details-1](https://imgur.com/KSg2NP8)
+![Details-1](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_overview_page.png))
 **A**=AMR gene families, **B**= All possible protein isoforms in relation.
 
-![Details-2](https://imgur.com/8v6JMsO)
+![Details-2](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_PQ_top3.png)
 **A**=TOP-3 preqursor quantity per AMR gene family, **B**= Drug spectra proportion of all peptides found.
-
 
 ## Release History
 
@@ -73,3 +72,4 @@ Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@examp
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
+
