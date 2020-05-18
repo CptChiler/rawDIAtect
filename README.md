@@ -1,6 +1,4 @@
-
- # rawDIAtect
-
+# rawDIAtect
 This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of any DIA LC-MS run analyzed with the [CARD](https://card.mcmaster.ca/) AMR databases and a species background from [UniProt](https://www.uniprot.org/) (modified databases can be found in ``/Database``). It filters for unique AMR related peptides and only takes a selected amount of them. Furthermore it calculates the TOP-3 precursor quantity and potiental Drug Class spectra. The results are then collected into ``pdf reports``. It can analyze multiple DIA-NN outputs at once and reports every sample individual.  
 
 ## Installation
@@ -16,6 +14,8 @@ Run script with RStudio
 ```
 sudo Rscript path/to/your/file/rawDIAtect.R
 ```
+### Databases for DIA-NN
+In the folder ``/Database`` are two zip files, those are the two protein CARD fastas and some proteomic background fastas. If your want to run DIA-NN with your MS data you need to unzip them to use them.
 
 ### Test run
 The script will install all dependecies upon the first run.
@@ -39,7 +39,6 @@ In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 
  - Hmisc
 
 ## Usage example
-
 ![options.PNG](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/options.PNG)
 
 ### Setup script and options
@@ -58,7 +57,6 @@ or the inside the bash by
 sudo Rscript path/to/your/file/rawDIAtect.R
 ```
 ## Output
-
 ![Main-Page](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_main_page.png )
 **A**=AMR gene families, **B**=expected Drug classs spectra, **C**= On top possibly protein isoform and bottom the count of unique peptides.
 
@@ -69,14 +67,10 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 **A**=TOP-3 preqursor quantity per AMR gene family, **B**= Drug spectra proportion of all peptides found.
 
 ## Release History
-
 * v1 (18.05.2020)
 
 ## Meta
-
 Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
-
 Distributed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See ``LICENSE`` for more information.
-
 [https://github.com/CptChiler](https://github.com/CptChiler)
 
