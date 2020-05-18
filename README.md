@@ -5,7 +5,7 @@ This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of a
 
 ## Installation
 
-[Only tested on Windwos 10, RStudio v1.2.1335, R v3.6.1 (2019-07-05)]
+**[Only tested on Windwos 10, RStudio v1.2.1335, R v3.6.1 (2019-07-05)]**
 
 Copy the repo folder ``/rawDIAtect`` including the script ``rawDIAtect.R`` (*you can make a shortcut of the script on the desktop*) anywhere on your computer an run it with RStudio. Best read setup before first run.
 
