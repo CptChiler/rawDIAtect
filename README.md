@@ -4,18 +4,18 @@ This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of a
 
 ## Installation
 
-Copy the file ``rawDIAtect.R`` anywhere on your computer an run it with RStudio 
+Copy the file ``rawDIAtect.R`` anywhere on your computer an run it with RStudio. Best read setup before first run.
 > Run Source or Ctrl+Shift+S
  
  or the inside the bash by 
 ```
 sudo Rscript path/to/your/file/rawDIAtect.R
 ```
-The script will install all dependecies upon the first run. Read setup before first run.
 
-### Test the script
+### Test run
+The script will install all dependecies upon the first run.
 
-In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 pdf reports. One is empty the other two contain either VIM-1 or CMY-2.
+In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 ``pdf reports``. One is ``empty`` the other two contain either ``VIM-1`` or ``CMY-2``.
 
 ### Dependecies
  - readr
