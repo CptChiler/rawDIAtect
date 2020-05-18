@@ -11,7 +11,7 @@ Copy the file ``rawDIAtect.R`` anywhere on your computer an run it with RStudio
 ```
 sudo Rscript path/to/your/file/rawDIAtect.R
 ```
-The script will install all dependecies upon the first run.
+The script will install all dependecies upon the first run. Read setup before first run.
 
 Dependecies:
  - readr
