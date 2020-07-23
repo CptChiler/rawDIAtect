@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(crayon,"%+%")
+importFrom(cowplot,"theme_cowplot","plot_grid")
+importFrom(ggplot2,"theme_set","ggplot","geom_bar","geom_tile","aes","labs","geom_text",
+           "facet_grid","theme","element_text","scale_fill_manual","position_stack","geom_label",
+           "facet_wrap","element_blank","coord_polar","scale_color_manual","guides")
+importFrom(tidyr,"separate_rows")
+importFrom(dplyr,"group_by", "add_count", "top_n", "summarise","mutate","filter", "left_join","%>%","as.tbl","add_row")
+importFrom(readr,"write_csv")
+importFrom(gameofthrones,"got","scale_fill_got")
+importFrom(plyr,"count")
