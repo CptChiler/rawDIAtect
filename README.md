@@ -9,7 +9,7 @@ Run script with RStudio
 ```
 devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
-You may need to restart RStudio to see the new package
+You may need to restart RStudio to see the new package.
 
 ### Databases for DIA-NN
 In the folder ``/database`` are two zip files, those are the two protein CARD fastas and some proteomic background fastas. If your want to run DIA-NN with your MS data you need to unzip them to use them.
