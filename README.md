@@ -34,19 +34,19 @@ In the folder ``/database`` are two zip files, those are the two protein CARD fa
 
 Input needs to be a folder with .csv files from DIA-NN!
 
-Minimal input:
+<ins>Minimal input:<ins>
 
 ```
 rawDIAtect(path_in = "/Quants")
 ```
 
-Options:
+<ins>Options:<ins>
 
-iso_diff = 2 (0 = Off) 
-pep_filter = 3 (<1 = Off)
-path_out = (Default = path_in)
+iso_diff = 2 (0 = Off) <br/>
+pep_filter = 3 (<1 = Off)<br/>
+path_out = (Default = path_in)<br/>
 
-Expert input:
+<ins>Expert input:<ins>
 
 ```
 rawDIAtect(path_in = "/Quants", pep_filter = 3 ,iso_diff = 2, path_out = "/AMRs", Exp_name = "Induced")
