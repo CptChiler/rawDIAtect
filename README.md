@@ -5,22 +5,14 @@ This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of a
 
 **[Only tested on Windwos 10, RStudio v1.2.1335, R v3.6.1 (2019-07-05)]**
 
-Copy the repo folder ``/rawDIAtect`` including the script ``rawDIAtect.R`` (*you can make a shortcut of the script on the desktop*) anywhere on your computer an run it with RStudio. Best read setup before first run.
-
 Run script with RStudio
-> Run Source or Ctrl+Shift+S
- 
- or the inside the bash by 
 ```
-sudo Rscript path/to/your/file/rawDIAtect.R
+devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
+You may need to restart RStudio to see the new package
+
 ### Databases for DIA-NN
 In the folder ``/database`` are two zip files, those are the two protein CARD fastas and some proteomic background fastas. If your want to run DIA-NN with your MS data you need to unzip them to use them.
-
-### Test run
-The script will install all dependecies upon the first run.
-
-In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 ``pdf reports``. One is ``empty`` the other two contain either ``VIM-1`` or ``CMY-2``.
 
 ### Dependecies
  - readr
@@ -41,21 +33,26 @@ In ``/test_files`` is a DIA-NN test output. Run correctly it should result in 3 
 ## Usage example
 ![options.PNG](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/options.PNG)
 
-### Setup script and options
-Before the first run change the path to the ``aro_index_DIA.tsv``  at the line **A**. Now the script is ready for your DIA-NN files. 
+### Script and options
 
-First change the path at **B** where your DIA-NN output files are stored (*best create a new Folder only containing your files you want to run, on default the output will be saved in the input folder*). If you want to save your report elsewhere you can change it at line **C**. You also can give your experiment a name at line **F**.
+Minimal input:
 
-You can change the peptides detection threshold at line **D**. Default is **3** (*best use between 2-4*). If using the Full CARD the output can be messy, by using the whitelist option at line **E** (1 = on) only whitelisted hits are shown (``KPC,OXA,SHV,TEM,VAN/AB,MCR,CMY,AAC,CTX-M,NDM,VIM``), turn this off if  you used the Whitelisted CARD.
-
-### Run the script
-When everthing is setup you can run the script in RStudio by 
-> Run Source or Ctrl+Shift+S
-
-or the inside the bash by 
 ```
-sudo Rscript path/to/your/file/rawDIAtect.R
+rawDIAtect(path_in = "/Quants")
 ```
+
+Options:
+
+iso_diff = 2 (0 = Off) 
+pep_filter = 3 (<1 = Off)
+path_out = (Default = path_in)
+
+Expert input:
+
+```
+rawDIAtect(path_in = "/Quants", pep_filter = 3 ,iso_diff = 2, path_out = "/AMRs", Exp_name = "Induced")
+```
+
 ## Output
 ![Main-Page](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_main_page.png )
 **A**=AMR gene families, **B**=expected Drug classs spectra, **C**= On top possibly protein isoform and bottom the count of unique peptides.
@@ -67,7 +64,7 @@ sudo Rscript path/to/your/file/rawDIAtect.R
 **A**=TOP-3 preqursor quantity per AMR gene family, **B**= Drug spectra proportion of all peptides found.
 
 ## Release History
-* v1 (18.05.2020)
+* v0.3 (11.02.2020)
 
 ## Meta
 Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
