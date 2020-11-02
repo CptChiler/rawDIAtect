@@ -31,9 +31,6 @@ In the folder ``/database`` are two zip files, those are the two protein CARD fa
  - Hmisc
 
 ## Usage example
-![options.PNG](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/options.PNG)
-
-### Script and options
 
 Minimal input:
 
