@@ -42,9 +42,14 @@ rawDIAtect(path_in = "/Quants")
 
 <ins>Options:<ins>
 
-iso_diff = 2 (0 = Off) <br/>
-pep_filter = 3 (<1 = Off)<br/>
-path_out = (Default = path_in)<br/>
+iso_diff = 2 (0 = Off) 
+>Allows a max difference to other protein isoforms <br/>
+pep_filter = 3 (<1 = Off) 
+>Sets threshold for unique peptide per hit <br/>
+path_out = (Default = path_in)
+>Path were report and split data will be stored <br/>
+Exp_name = "Induced"
+>Experimentname (all files will get this name) <br/>
 
 <ins>Expert input:<ins>
 
