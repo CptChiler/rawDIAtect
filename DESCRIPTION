@@ -1,10 +1,10 @@
 Package: rawDIAtect
 Type: Package
 Title: rawDIAtect
-Version: 0.1
-Date: 2020-07-17
+Version: 0.3
+Date: 2020-10-15
 Author: Christian Blumenscheit
 Maintainer: Christian Blumenscheit <chblumenscheit@gmail.com>
 Description: Data analysis tool for MS DIA-NN outputs using the rawDIAtect workflow 
-Imports: readr,tidyverse,profvis,tidyr,ggplot2,dplyr,cowplot,plyr,devtools,gameofthrones,tm,crayon,progress,Hmisc
+Imports: readr,tidyverse,profvis,tidyr,ggplot2,dplyr,cowplot,plyr,devtools,gameofthrones,tm,crayon,Hmisc,tcltk
 License: GPL-3

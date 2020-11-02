@@ -9,3 +9,5 @@ importFrom(dplyr,"group_by", "add_count", "top_n", "summarise","mutate","filter"
 importFrom(readr,"write_csv")
 importFrom(gameofthrones,"got","scale_fill_got")
 importFrom(plyr,"count")
+importFrom(tcltk,"tkProgressBar","setTkProgressBar")
+

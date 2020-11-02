@@ -1,14 +1,15 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-
+while (!is.null(dev.list()))  dev.off()
+rm(list=ls(all=TRUE))
 
 rawDIAtect <- function(path_in = "",
                        pep_filter = 3,
+                       iso_diff = 0,
                        path_out = "",
                        Exp_name = "")
                          {
-
 # Set path to aro index database (*.tsv)
 
 path_db_in <- system.file("data", "aro_index_DIA.tsv", package = "rawDIAtect")
@@ -17,6 +18,8 @@ options(warn=-1)
 
   if (path_out == "") {path_out = ""} else {}
   if (Exp_name == "") {Exp_name = ""} else {}
+  if (pep_filter == "") {pep_filter = 3} else {}
+  if (iso_diff == "") {iso_diff = 0} else {}
 
 #rawSplit################################################################################################################
 
@@ -35,6 +38,9 @@ l3 = paste(l2,"DIA-NN Quants in")
 cat(crayon::blue(paste(l3, path_in,sep=" ")))
 cat("\n")
 cat("\n")
+
+if (identical(Exp_name, "") == TRUE)
+{sep_exp = ""} else {sep_exp = "_"}
 
 for(i in filenames_tsv)
 {
@@ -92,7 +98,7 @@ for(i in filenames_tsv)
   # Save
   lapply(list_needed_csv, function(x){
     pb$tick()
-    write_csv(spt2[[x]], path = paste(out_dir,x, paste("_",Exp_name, "_quant.csv",sep =""), sep = ""))
+    write_csv(spt2[[x]], path = paste(out_dir,x, "_" ,paste( Exp_name, "quant.csv",sep ="_"), sep = ""))
   })
 
   # loop end msg
@@ -111,7 +117,7 @@ cat(paste("Saved all splitted Quant files in", out_dir,sep = " "))
 #rawCRIT############################################################################
 
 cat("\n")
-cat(crayon::bold(crayon::underline("Loading module CRIT")))
+cat(crayon::bold(crayon::underline("Loading module CRIT.r")))
 cat("\n")
 cat("\n")
 
@@ -138,12 +144,13 @@ cat(crayon::underline$green("ARO Index was successfully loaded!"))
 
 
 # starts popup progress
-pb <- winProgressBar(title="Total Progress of rawDetect", label="0% done", min=0, max=100, initial=0)
+pb <- tcltk::tkProgressBar(title="Total Progress of rawDetect", label="0% done", min=0, max=100, initial=0)
 loop_count <- 0
 
 
 cat((crayon::bold$bgCyan("Starting analyzing with following options:","\n")))
-cat(crayon::bold(paste("Unique Peptide filter = ", pep_filter)),"\n","\n","\n")
+cat(crayon::bold(paste("Unique Peptide filter = ", pep_filter)))
+cat(crayon::bold(paste("Protein-Isoform difference threshold = ", iso_diff)),"\n","\n","\n")
 
 # main loops start
 for(i in filenames){
@@ -223,10 +230,13 @@ for(i in filenames){
     names(max_isos)[1] <- "amr_gene_family"
     names(max_isos)[2] <- "max_count_name"
     quant_ARO_iso_count_max <- merge(quant_ARO_iso_count,max_isos)
-    quant_ARO_iso_count_diff <- quant_ARO_iso_count_max %>% mutate(diff = max_count_name-count_name)
-    iso_name_best <- quant_ARO_iso_count_diff %>% filter(as.numeric(diff) <= 2)
-    iso_name_best_small <- dplyr::select(iso_name_best,c("amr_gene_family","Genes","Names","Subfamily","Note"))
-    iso_name_best_small_uni <-  unique(iso_name_best_small)
+    quant_ARO_iso_count_diff <- quant_ARO_iso_count_max %>% mutate(iso_count_diff = max_count_name-count_name)
+
+    iso_name_best <- quant_ARO_iso_count_diff %>% filter(as.numeric(iso_count_diff) <= iso_diff)
+
+
+    #iso_name_best_small <- dplyr::select(iso_name_best,c("amr_gene_family","Genes","Names","Subfamily","Note"))
+    iso_name_best_small_uni <-  unique(iso_name_best)
 
     # output with corrected isoform
     quant_ARO_name <- merge(quant_ARO_index_top3_filt,iso_name_best_small_uni)
@@ -484,9 +494,6 @@ for(i in filenames){
   if (identical(path_out, "") == TRUE)
   {out_dir <- paste(path_in,"Report", sep = "/")} else {out_dir <- paste(path_out,"Report", sep = "/")}
 
-  if (identical(Exp_name, "") == TRUE)
-  {sep_exp = ""} else {sep_exp = "_"}
-
   out_dir1 <- paste(out_dir,Exp_name, sep = sep_exp)
   dir.create(out_dir1, showWarnings = FALSE)
   mainDir <- out_dir1
@@ -515,13 +522,15 @@ for(i in filenames){
   # loop counter
   loop_count <- loop_count + 1
   info <- sprintf("%d%% done", round((loop_count/length(filenames))*100))
-  setWinProgressBar(pb, (loop_count/length(filenames))*100, label=info)
+  tcltk::setTkProgressBar(pb, (loop_count/length(filenames))*100, label=info)
 
   # loop end msg
   cat(crayon::underline(paste("Done with", subDir, sep=" ")))
         cat( "\n")
         cat( "\n")
   # paste end
+        rm(list=setdiff(ls(all=TRUE), c( "path_in", "pep_filter", "iso_diff", "path_out", "Exp_name",
+                                 "path_split", "filenames",  "aro_index_DIA", "pb", "loop_count", "out_dir1", "sep_exp")))
 }
 
 # close pop up
@@ -535,6 +544,6 @@ cat(paste("Output in",out_dir1,sep = " "))
 
 # clean up
 while (!is.null(dev.list()))  dev.off()
-rm(list=ls())
+rm(list=ls(all=TRUE))
 
 }
