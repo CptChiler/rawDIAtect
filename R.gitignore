@@ -47,3 +47,6 @@ po/*~
 
 # png
 *.png
+
+# zip
+*.zip
