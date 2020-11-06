@@ -11,8 +11,12 @@ devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
 You may need to restart RStudio to see the new package.
 
-### Databases for DIA-NN
+### Databases for DIA-NN and settings
 In the folder ``/database`` are two zip files, those are the two protein CARD fastas and some proteomic background fastas. If your want to run DIA-NN with your MS data you need to unzip them to use them.
+
+![DIA-NN setup example](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/Folie1.png )
+
+**1**=Add your raw DIA file, **2**=Add a species background and a CARD target fasta, **3**= Check the boxes for Fasta digestion and Deep learning spectra prediction. **4**= Uncheck batch process and check Unrelated runs. Maunual set Mass accuracy and MS1 accuracy to 10 and 20 ppm.
 
 ### Dependecies
  - readr
