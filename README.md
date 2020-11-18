@@ -30,9 +30,11 @@ You may need to restart RStudio to see the new package.
 ### Databases for DIA-NN and settings
 In the folder ``/database`` are two zip files, those are the two protein CARD fastas and some proteomic background fastas. If your want to run DIA-NN with your MS data you need to unzip them to use them.
 
+#### AMR Databases
 >1. “Full CARD” (196.072 entries) 
 >2. “Whitelisted CARD” (22 entries) -> PCR (CMY-2, CTX-M-9/15, KPC-2/3, NDM-1, OXA-1/48, SHV-1/12, TEM-1/52, VIM-1, AAC(6)-lb-cr, VanA-R/S and VanB-R/S)
 
+#### DIA-NN setup
 ![DIA-NN setup example](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/Folie1.png )
 
 **1**=Add your raw DIA file, **2**=Add a species background and a CARD target fasta, **3**= Check the boxes for Fasta digestion and Deep learning spectra prediction. **4**= Uncheck batch process and check Unrelated runs. Maunual set Mass accuracy and MS1 accuracy to 10 and 20 ppm.
