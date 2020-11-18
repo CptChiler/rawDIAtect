@@ -36,7 +36,7 @@ In the folder ``/database`` are two zip files, those are the two protein CARD fa
 
 ## Usage example
 
-Input needs to be a folder with "report".tsv files from DIA-NN and runs should have unique names.
+Input needs to be a folder with "report".tsv files from DIA-NN and runs should have unique names. You can put multiple reports in one folder.
 
 <ins>Minimal input:<ins>
 
