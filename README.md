@@ -25,6 +25,8 @@ Pre-Print: https://www.biorxiv.org/content/10.1101/2020.11.17.386540v1
 
 Run with RStudio
 ```
+install.packages("devtools")
+library("devtools")
 devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
 or from release https://github.com/CptChiler/rawDIAtect/releases/tag/v0.3
