@@ -21,12 +21,14 @@ Pre-Print: https://www.biorxiv.org/content/10.1101/2020.11.17.386540v1
  
 ## Installation
 
-**[Only tested on Windwos 10, RStudio v1.2.1335, R v3.6.1 (2020-11-02)]**
+**[Tested on Windwos 10, RStudio v1.2.1335, R v4.0.3 & v3.6.1(2020-11-26)**
 
 Run with RStudio
 ```
 devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
+or from release https://github.com/CptChiler/rawDIAtect/releases/tag/v0.3
+
 You may need to restart RStudio to see the new package.
 
 ## Databases for DIA-NN and settings
