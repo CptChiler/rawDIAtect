@@ -14,7 +14,7 @@ jobs:
         action: 'all'
         needsBioc: false
        
-  macos:
+ ubuntu:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
@@ -24,7 +24,7 @@ jobs:
         action: 'all'
         needsBioc: false
         
-  windows:
+ windows:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v1
