@@ -21,9 +21,6 @@ Pre-Print: https://www.biorxiv.org/content/10.1101/2020.11.17.386540v1
  
 ## Installation
 
-[![R build
-status](https://github.com/matt-dray/r2eng/workflows/R-CMD-check/badge.svg)](https://github.com/CptChiler/rawDIAtect/actions?query=workflow%3A%22R+Build+and+Checks%22)
-
 **[Tested on Windwos 10, RStudio v1.2.1335, R v4.0.3 & v3.6.1(2020-11-26)**
 
 Run with RStudio
