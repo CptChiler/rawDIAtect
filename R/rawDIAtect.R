@@ -448,7 +448,7 @@ for(i in filenames){
     scale_color_manual(values=group.colors,
                        na.value="white",na.translate=FALSE) +
     guides(fill = F) +
-    facet_grid(~group_amr, scales = "free") +
+    facet_wrap(group_amr~Note, scales = "free") +
   labs(title = head(temp_dat[["Sample"]],1))
 
 
