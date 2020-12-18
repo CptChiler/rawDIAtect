@@ -2236,7 +2236,7 @@ RSA-1	ARO:3004444	RSA beta-lactamase	carbapenam;cephalosporin	inactivation	RSA-1
 RSA-2	ARO:3004445	RSA beta-lactamase	carbapenam;cephalosporin	inactivation	RSA-2 is a class A beta-lactamase enzyme identified from a functional metagenomics study of contaminated river sediments in India.				
 Sed-1	ARO:3003561	Sed beta-lactamase	cephalosporin;penam	inactivation	Sed-1 is a chromosomal-encoded class A beta-lactamase identified in Citrobacter sedlakii.				
 SFH-1	ARO:3000849	SFH beta-lactamase	carbapenam	inactivation	SFH-1 confers resistance to carbapenams in Serratia fonticola.	B2		Carbapenemase	N (Serratiafonticola)
-SHV-1	ARO:3001059	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-1 is a broad-spectrum beta-lactamase found in Klebsiella spp., as well as A. spp., E. coli., Raoultella terrigena, and Yersinia pestis.	A	SHV-like		A
+SHV-1	ARO:3001059	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-1 is a broad-spectrum beta-lactamase found in Klebsiella spp., as well as A. spp., E. coli., Raoultella terrigena, and Yersinia pestis.	A	SHV-like	broadspectrum	A
 SHV-100	ARO:3001338	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-100 is a beta-lactamase found in Klebsiella pneumoniae. It differs from SHV-1 by a 35SESQLSGRVGMIE36 insertion.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-101	ARO:3001150	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-101 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-102	ARO:3001151	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-102 is an extended spectrum beta-lactamase found in E. coli.	A	SHV-like	ESBL	N (Escherichiacoli)
