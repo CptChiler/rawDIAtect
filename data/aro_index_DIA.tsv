@@ -2236,7 +2236,7 @@ RSA-1	ARO:3004444	RSA beta-lactamase	carbapenam;cephalosporin	inactivation	RSA-1
 RSA-2	ARO:3004445	RSA beta-lactamase	carbapenam;cephalosporin	inactivation	RSA-2 is a class A beta-lactamase enzyme identified from a functional metagenomics study of contaminated river sediments in India.				
 Sed-1	ARO:3003561	Sed beta-lactamase	cephalosporin;penam	inactivation	Sed-1 is a chromosomal-encoded class A beta-lactamase identified in Citrobacter sedlakii.				
 SFH-1	ARO:3000849	SFH beta-lactamase	carbapenam	inactivation	SFH-1 confers resistance to carbapenams in Serratia fonticola.	B2		Carbapenemase	N (Serratiafonticola)
-SHV-1	ARO:3001059	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-1 is a broad-spectrum beta-lactamase found in Klebsiella spp., as well as A. spp., E. coli., Raoultella terrigena, and Yersinia pestis.	A	SHV-like	ESBL	A
+SHV-1	ARO:3001059	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-1 is a broad-spectrum beta-lactamase found in Klebsiella spp., as well as A. spp., E. coli., Raoultella terrigena, and Yersinia pestis.	A	SHV-like		A
 SHV-100	ARO:3001338	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-100 is a beta-lactamase found in Klebsiella pneumoniae. It differs from SHV-1 by a 35SESQLSGRVGMIE36 insertion.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-101	ARO:3001150	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-101 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-102	ARO:3001151	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-102 is an extended spectrum beta-lactamase found in E. coli.	A	SHV-like	ESBL	N (Escherichiacoli)
@@ -2247,7 +2247,7 @@ SHV-106	ARO:3001155	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivati
 SHV-107	ARO:3001156	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-107 is an inhibitor-resistant beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	broadspectrum	N (Klebsiellapneumoniae)
 SHV-108	ARO:3001157	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-108 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-109	ARO:3001158	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-109 is a broad-spectrum beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	broadspectrum	N (Klebsiellapneumoniae)
-SHV-11	ARO:3001070	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-11 is a broad-spectrum beta-lactamase found in E. coli, Klebsiella pneumoniae, Proteus mirabilis, and Shigella dysenteriae.	A	SHV-like	ESBL	A
+SHV-11	ARO:3001070	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-11 is a broad-spectrum beta-lactamase found in E. coli, Klebsiella pneumoniae, Proteus mirabilis, and Shigella dysenteriae.	A	SHV-like		A
 SHV-110	ARO:3001159	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-110 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
 SHV-111	ARO:3001160	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-111 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-112	ARO:3001161	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-112 is a beta-lactamase that has been found in clinical isolates.	A			
@@ -2274,9 +2274,9 @@ SHV-141	ARO:3001183	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivati
 SHV-142	ARO:3001184	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-142 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-143	ARO:3001344	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	From the Lahey list of beta-lactamases.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-144	ARO:3001345	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-144 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
-SHV-145	ARO:3001185	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-145 is a beta-lactamase.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
+SHV-145	ARO:3001185	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-145 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-147	ARO:3001186	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-147 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
-SHV-148	ARO:3001187	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-148 is a beta-lactamase.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
+SHV-148	ARO:3001187	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-148 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-149	ARO:3001188	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-149 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-15	ARO:3001074	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-15 is an extended-spectrum beta-lactamase found in E. coli.	A	SHV-like	ESBL	N (Escherichiacoli)
 SHV-150	ARO:3001189	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-150 is a beta-lactamase.	A	SHV-like		N (Klebsiellapneumoniae)
@@ -2362,8 +2362,8 @@ SHV-63	ARO:3001118	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivatio
 SHV-64	ARO:3001119	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-64 is an extended-spectrum beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
 SHV-65	ARO:3001120	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-65 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
 SHV-66	ARO:3001121	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-66 is an extended-spectrum beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
-SHV-67	ARO:3001122	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-67 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
-SHV-69	ARO:3001123	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-69 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
+SHV-67	ARO:3001122	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-67 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
+SHV-69	ARO:3001123	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-69 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SHV-7	ARO:3001066	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-7 is an extended-spectrum beta-lactamase found in E. coli.	A	SHV-like	ESBL	N (Enterobactersp.MGH14)
 SHV-70	ARO:3001124	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-70 is an extended-spectrum beta-lactamase found in Enterobacter cloacae.	A	SHV-like	ESBL	A
 SHV-71	ARO:3001125	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-71 is a broad-spectrum beta-lactamase found in Klebsiella pneumoniae and Shigella.	A	SHV-like	broadspectrum	N (Klebsiellapneumoniae)
@@ -2391,8 +2391,8 @@ SHV-94	ARO:3001146	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivatio
 SHV-95	ARO:3001147	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-95 is a beta-lactamase found in Citrobacter freundii.	A	SHV-like		N (Citrobacterfreundii)
 SHV-96	ARO:3001148	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-96 is a beta-lactamase found in A. baumannii.	A	SHV-like		N (Acinetobacterbaumannii)
 SHV-97	ARO:3001149	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-97 is a beta-lactamase found in Enterococcus faecalis.	A	SHV-like		N (Enterococcusfaecalis)
-SHV-98	ARO:3001336	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-98 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
-SHV-99	ARO:3001337	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-99 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like	ESBL	N (Klebsiellapneumoniae)
+SHV-98	ARO:3001336	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-98 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
+SHV-99	ARO:3001337	SHV beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SHV-99 is a beta-lactamase found in Klebsiella pneumoniae.	A	SHV-like		N (Klebsiellapneumoniae)
 SFB-1	ARO:3003557	SHW beta-lactamase	cephalosporin;penam	inactivation	This enzyme breaks the beta-lactam ring open and deactivates the molecule's antibacterial properties.	B1			N (Shewanellafrigidimarina)
 SLB-1	ARO:3003556	SHW beta-lactamase	cephalosporin;penam	inactivation	This enzyme breaks the beta-lactam ring open and deactivates the molecule's antibacterial properties.	B1			N (Shewanellalivingstonensis)
 SIM-1	ARO:3000846	SIM beta-lactamase	carbapenam;cephalosporin;penam	inactivation	SIM-1 is an integron-encoded Ambler class B beta-lactamase isolated from A. baumannii	B1		Carbapenemase	A
@@ -2456,7 +2456,7 @@ TEM-105	ARO:3000968	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivati
 TEM-106	ARO:3000969	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-106 is an extended-spectrum beta-lactamase found in E. coli.	A		ESBL	A
 TEM-107	ARO:3000970	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-107 is an extended-spectrum beta-lactamase found in Klebsiella pneumoniae.	A		ESBL	A
 TEM-108	ARO:3000971	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-108 is a beta-lactamase that has been found in clinical isolates.	A			A
-TEM-109	ARO:3000972	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-109 is an inhibitor-resistant, extended-spectrum beta-lactamase found in E. coli.	A		ESBL	A
+TEM-109	ARO:3000972	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-109 is an inhibitor-resistant, extended-spectrum beta-lactamase found in E. coli.	A			A
 TEM-11	ARO:3000883	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-11 is an extended-spectrum beta-lactamase found in Proteus mirabilis.	A		ESBL	A
 TEM-110	ARO:3000973	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-110 is a broad-spectrum beta-lactamase found in Klebsiella pneumoniae.	A		broadspectrum	A
 TEM-111	ARO:3000974	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-111 is a beta-lactamase found in E. coli and P. mirabilis	A			A
@@ -2464,7 +2464,7 @@ TEM-112	ARO:3000975	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivati
 TEM-113	ARO:3000976	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-113 is an extended-spectrum beta-lactamase found in Proteus mirabilis.	A		ESBL	A
 TEM-114	ARO:3000977	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-114 is an extended-spectrum beta-lactamase found in Klebsiella aerogenes.	A		ESBL	A
 TEM-115	ARO:3000978	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-115 is an extended-spectrum beta-lactamase found in Klebsiella pneumoniae.	A		ESBL	A
-TEM-116	ARO:3000979	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-116 is a broad-spectrum beta-lactamase found in many species of bacteria.	A		ESBL	A
+TEM-116	ARO:3000979	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-116 is a broad-spectrum beta-lactamase found in many species of bacteria.	A			A
 TEM-117	ARO:3000980	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-117 is a beta-lactamase that has been found in clinical isolates.	A			A
 TEM-118	ARO:3000981	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-118 is an extended-spectrum beta-lactamase that has been found in clinical isolates.	A			
 TEM-12	ARO:3000884	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-12 is an extended-spectrum beta-lactamase found in Klebsiella oxytoca.	A		ESBL	A
@@ -2501,7 +2501,7 @@ TEM-15	ARO:3000886	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivatio
 TEM-150	ARO:3001017	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-150 is a beta-lactamase found in Enterobacter spp., E. coli, and Klebsiella pneumoniae.	A			A
 TEM-151	ARO:3001018	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-151 is a CMT-type, inhibitor-resistant, extended-spectrum beta-lactamase found in E. coli.	A		ESBL	A
 TEM-152	ARO:3001019	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-152 is a CMT-type, inhibitor-resistant, extended-spectrum beta-lactamase found in E. coli.	A		ESBL	A
-TEM-153	ARO:3001369	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-153 is a beta-lactamase found in Enterobacteriaceae.	A		ESBL	A
+TEM-153	ARO:3001369	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-153 is a beta-lactamase found in Enterobacteriaceae.	A			A
 TEM-154	ARO:3001020	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-154 is a CMT-type, inhibitor-resistant, extended-spectrum beta-lactamase.	A		ESBL	A
 TEM-155	ARO:3001021	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-155 is an extended-spectrum beta-lactamase.	A		ESBL	A
 TEM-156	ARO:3001022	TEM beta-lactamase	monobactam;cephalosporin;penam	inactivation	TEM-156 is a TEM beta-lactamase.	A			A
