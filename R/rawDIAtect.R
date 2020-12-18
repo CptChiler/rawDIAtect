@@ -417,7 +417,7 @@ for(i in filenames){
   # new main page
 
   main_page <- ggplot(data = main_page_pep_PQ_names) +
-    ggplot::geom_col(aes(x = amr_gene_family,
+    ggplot2::geom_col(aes(x = amr_gene_family,
                   y = Note,
                   fill = Found_AMR,
                   color = Note),
