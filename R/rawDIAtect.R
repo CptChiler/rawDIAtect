@@ -383,11 +383,24 @@ for(i in filenames){
                       na.value="white",na.translate=FALSE)
 
   # gets matrix for main_page
-  amr_gene_family <- c("AAC(6')","KPC beta-lactamase","OXA beta-lactamase","SHV beta-lactamase","TEM beta-lactamase","CMY beta-lactamase","CTX-M beta-lactamase",
-                       "NDM beta-lactamase","VIM beta-lactamase","MCR phosphoethanolamine transferase","van ligase","vanR","vanS")
+  amr_gene_family <- c("AAC(6')","AAC(3')","ANT(6)",
+                       "KPC beta-lactamase","OXA beta-lactamase",
+                       "SHV beta-lactamase","TEM beta-lactamase",
+                       "CMY beta-lactamase","CTX-M beta-lactamase",
+                       "NDM beta-lactamase","VIM beta-lactamase",
+                       "MCR phosphoethanolamine transferase",
+                       "van ligase","vanR","vanS")
+  
+  group_amr <- c("Aminoglycoside","Aminoglycoside","Aminoglycoside",
+                 "Beta-lactam","Beta-lactam",
+                 "Beta-lactam","Beta-lactam",
+                 "Beta-lactam","Beta-lactam",
+                 "Beta-lactam","Beta-lactam",
+                 "Colistin",
+                 "Vancomycin","Vancomycin","Vancomycin")
   Found_AMR <- c("")
   main_page_dat <- data.frame(amr_gene_family,Found_AMR)
-
+  
   # merging data for plot for main page
   suppressMessages(
     main_page_pep <- left_join(main_page_dat,ggplot_pep_count)
@@ -435,7 +448,8 @@ for(i in filenames){
     scale_color_manual(values=group.colors,
                        na.value="white",na.translate=FALSE) +
     guides(fill = F) +
-    facet_grid(~head(temp_dat[["Sample"]],1))
+    facet_grid(~group_amr) +
+  labs(title = head(temp_dat[["Sample"]],1))
 
 
   # drug_class and spectrum
