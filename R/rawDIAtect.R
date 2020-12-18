@@ -399,7 +399,7 @@ for(i in filenames){
                  "Colistin",
                  "Vancomycin","Vancomycin","Vancomycin")
   Found_AMR <- c("")
-  main_page_dat <- data.frame(amr_gene_family,Found_AMR)
+  main_page_dat <- data.frame(amr_gene_family,group_amr,Found_AMR)
   
   # merging data for plot for main page
   suppressMessages(
