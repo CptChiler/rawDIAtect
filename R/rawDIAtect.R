@@ -421,7 +421,7 @@ for(i in filenames){
                   y = Note,
                   fill = Found_AMR,
                   color = Note),
-              size =2, position = "stack",) +
+              size =2, position = "stack") +
     theme(plot.subtitle = element_text(vjust = 1),
           plot.caption = element_text(vjust = 1),
           axis.line.y=element_blank(),
