@@ -417,11 +417,11 @@ for(i in filenames){
   # new main page
 
   main_page <- ggplot(data = main_page_pep_PQ_names) +
-    ggplot2::geom_col(aes(x = amr_gene_family,
+    ggplot2::geom_tile(aes(x = amr_gene_family,
                   y = Note,
                   fill = Found_AMR,
                   color = Note),
-              size =2, position = "stack") +
+              size =2) +
     theme(plot.subtitle = element_text(vjust = 1),
           plot.caption = element_text(vjust = 1),
           axis.line.y=element_blank(),
@@ -434,15 +434,15 @@ for(i in filenames){
     geom_label(aes(x = amr_gene_family,
                    y = Note,
                    label = Names),
-               position = position_stack(vjust =-0.8)) +
+               vjust =-0.8) +
     geom_label(aes(x = amr_gene_family,
                    y = Note,
                    label = Subfamily),
-               position = position_stack(vjust =-2)) +
+               vjust =-2) +
     geom_label(aes(x = amr_gene_family,
                    y = Note,
                    label = peptides),
-               position = position_stack(vjust =1)) +
+               vjust =1) +
     scale_fill_manual(values = group.fills,
                       na.value="white",na.translate=FALSE)  +
     scale_color_manual(values=group.colors,
