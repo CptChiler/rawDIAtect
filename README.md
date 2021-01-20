@@ -29,7 +29,7 @@ install.packages("devtools")
 library("devtools")
 devtools::install_github("https://github.com/CptChiler/rawDIAtect")
 ```
-or from release https://github.com/CptChiler/rawDIAtect/releases/tag/v0.3
+or from release https://github.com/CptChiler/rawDIAtect/releases
 
 You may need to restart RStudio to see the new package.
 
