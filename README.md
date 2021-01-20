@@ -79,7 +79,7 @@ rawDIAtect(path_in = "/Quants", pep_filter = 3 ,iso_diff = 2, path_out = "/AMRs"
 **A**=TOP-3 preqursor quantity per AMR gene family, **B**= Drug spectra proportion of all peptides found.
 
 ## Release History
-* v0.3 (11.02.2020)
+* v0.4 (20.01.2021)
 
 ## Meta
 Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
