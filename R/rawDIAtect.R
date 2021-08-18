@@ -214,7 +214,7 @@ for(i in filenames){
 
     if (pep_filter > 1)
     {
-      quant_ARO_index_top3_filt <- quant_ARO_index_top3_sort %>% filter( quant_ARO_index_top3_sort[["peptides"]] > pep_filter)
+      quant_ARO_index_top3_filt <- quant_ARO_index_top3_sort %>% filter( quant_ARO_index_top3_sort[["peptides"]] >= pep_filter)
     } else {
       quant_ARO_index_top3_filt <- quant_ARO_index_top3_sort
     }
