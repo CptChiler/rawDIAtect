@@ -133,7 +133,7 @@ rawDIAtect <- function(path_in = "",
   cat("\n")
   
   # set to clear theme
-  cowplot::theme_set(theme_cowplot())
+  theme_set(theme_cowplot())
   
   # reads ARO-Index
   aro_index_DIA <- suppressMessages(readr::read_delim(path_db_in, "\t", escape_double = FALSE, trim_ws = TRUE))
