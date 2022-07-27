@@ -461,7 +461,7 @@ rawDIAtect <- function(path_in = "",
     
     #
     
-    if(as.integer(is.na(ggplot_drug_class$drug_class)) == 1) {
+    if(nrow(ggplot_drug_class) <= 1) {
       page1 <- p1
       page2 <- p2
       
