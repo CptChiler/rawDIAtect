@@ -21,9 +21,9 @@ Paper : https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594
  
 ## Installation
 
-**[Tested on Windwos 10, RStudio v1.2.1335, R v4.0.3 & v3.6.1(2020-11-26)**
+**[Tested on Windwos 10, RStudio v1.2.1335, R v4.2.1]**
 
-Run with RStudio
+Run
 ```
 install.packages("devtools")
 library("devtools")
