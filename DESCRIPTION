@@ -10,6 +10,3 @@ Imports:
         readr,tidyverse,profvis,tidyr,ggplot2,dplyr,cowplot,plyr,devtools,gameofthrones,tm,crayon,Hmisc,tcltk
 Remotes: github::aljrico/gameofthrones
 License: GPL-3
-NeedsCompilation: no
-Packaged: 2021-01-20 14:01:10 UTC; blumenscheitc
-Built: R 4.2.1; ; 2022-11-24 15:35:08 UTC; windows
