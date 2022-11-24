@@ -1,4 +1,4 @@
-# [rawDIAtect](https://www.biorxiv.org/content/10.1101/2020.11.17.386540v1)
+# [rawDIAtect](https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594)
 This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of any DIA LC-MS run analyzed with the [CARD](https://card.mcmaster.ca/) AMR databases and a species background from [UniProt](https://www.uniprot.org/) (modified databases can be found in ``/database``). It filters for unique AMR related peptides and only takes a selected amount of them. Furthermore it calculates the TOP-3 precursor quantity and potiental Drug Class spectra. The results are then collected into ``pdf reports``. It can analyze multiple DIA-NN outputs at once and reports every sample individual.
 
 Paper : https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594
