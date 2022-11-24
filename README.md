@@ -83,9 +83,9 @@ Analytical Chemistry 2021 93 (44), 14599-14608<br />
 DOI: [10.1021/acs.analchem.1c00594](https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594)
   
 ## Release History
-*v0.5 (25.11.2022)
- v0.4 (20.01.2021)
- v0.3 (23.11.2020)
+*v0.5 (25.11.2022)<br />
+ v0.4 (20.01.2021)<br />
+ v0.3 (23.11.2020)<br />
  
 ## Meta
 Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
