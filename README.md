@@ -1,8 +1,6 @@
 # [rawDIAtect](https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594)
 This script process the [DIA-NN](https://github.com/vdemichev/DiaNN) output of any DIA LC-MS run analyzed with the [CARD](https://card.mcmaster.ca/) AMR databases and a species background from [UniProt](https://www.uniprot.org/) (modified databases can be found in ``/database``). It filters for unique AMR related peptides and only takes a selected amount of them. Furthermore it calculates the TOP-3 precursor quantity and potiental Drug Class spectra. The results are then collected into ``pdf reports``. It can analyze multiple DIA-NN outputs at once and reports every sample individual.
 
-Paper : https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594
-
 ### Dependecies
  - readr
  - tidyverse
@@ -78,9 +76,17 @@ rawDIAtect(path_in = "/Quants", pep_filter = 3 ,iso_diff = 2, path_out = "/AMRs"
 ![Details-2](https://github.com/CptChiler/rawDIAtect/blob/master/readme_png/86-09_PQ_top3.png)
 **A**=TOP-3 preqursor quantity per AMR gene family, **B**= Drug spectra proportion of all peptides found.
 
+### Citation<br />
+**Unbiased Antimicrobial Resistance Detection from Clinical Bacterial Isolates Using Proteomics**<br />
+*Christian Blumenscheit, Yvonne Pfeifer, Guido Werner, Charlyn John, Andy Schneider, Peter Lasch, and Joerg Doellinger*<br />
+Analytical Chemistry 2021 93 (44), 14599-14608<br />
+DOI: [10.1021/acs.analchem.1c00594](https://pubs.acs.org/doi/10.1021/acs.analchem.1c00594)
+  
 ## Release History
-* v0.4 (20.01.2021)
-
+*v0.5 (25.11.2022)
+ v0.4 (20.01.2021)
+ v0.3 (23.11.2020)
+ 
 ## Meta
 Christian Blumenscheit – [@ChrisMiBiFlower](https://twitter.com/chrismibiflower)
 Distributed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See ``LICENSE`` for more information.
