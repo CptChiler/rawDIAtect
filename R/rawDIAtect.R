@@ -228,8 +228,8 @@ for(i in filenames){
                   group_by(amr_gene_family) %>%
       summarise(max_count_name = max(count_name))
 
-    names(max_isos)[1] <- "amr_gene_family"
-    names(max_isos)[2] <- "max_count_name"
+    #names(max_isos)[1] <- "amr_gene_family"
+    #names(max_isos)[2] <- "max_count_name"
     quant_ARO_iso_count_max <- merge(quant_ARO_iso_count,max_isos)
     quant_ARO_iso_count_diff <- quant_ARO_iso_count_max %>% mutate(iso_count_diff = max_count_name-count_name)
 
