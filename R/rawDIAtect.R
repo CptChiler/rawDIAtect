@@ -194,7 +194,7 @@ for(i in filenames){
   quant_ARO_AMR_index<- merge(x = quant_ARO_sep_uni_pep, y = aro_index_DIA[ , c("Genes", "amr_gene_family")], by = "Genes", all.x=TRUE)
   quant_ARO_count <- quant_ARO_AMR_index %>% group_by(amr_gene_family) %>% add_count(amr_gene_family,name = "peptides")
 
-  if(max(quant_ARO_count$peptides) <= 1 |  nrow(quant_ARO_count) == 0) {
+  if(max(quant_ARO_count$peptides) <= pep_filter |  nrow(quant_ARO_count) == 0) {
     mock_data <- data.frame(matrix(ncol = 9, nrow = 0))
     col_name_mock <- c("Sample","Names","Precursor.Quantity.Top3","amr_gene_family","Subfamily","peptides","resistance_mechanism","drug_class","Note")
     colnames(mock_data) <- col_name_mock
@@ -735,7 +735,7 @@ for(i in filenames){
 
   # if no drug classes
 
-  if(length(ggplot_drug_class$drug_class)== 0) {
+  if(length(ggplot_drug_class$drug_class)== 0 | is.na(ggplot_drug_class$drug_class)) {
     page1 <- p1
     page2 <- p2
 
