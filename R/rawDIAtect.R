@@ -735,7 +735,7 @@ for(i in filenames){
 
   # if no drug classes
 
-  if(length(ggplot_drug_class$drug_class)== 0 | is.na(ggplot_drug_class$drug_class)) {
+  if(length(ggplot_drug_class$drug_class) == 0 | sum(is.na(ggplot_drug_class$drug_class)) >= 1) {
     page1 <- p1
     page2 <- p2
 
