@@ -20,6 +20,9 @@ options(warn=-1)
   if (Exp_name == "") {Exp_name = ""} else {}
   if (pep_filter == "") {pep_filter = 3} else {}
   if (iso_diff == "") {iso_diff = 0} else {}
+  
+  if (identical(Exp_name, "") == TRUE)
+  {sep_exp = ""} else {sep_exp = "_"}
 
 #rawSplit################################################################################################################
 cat("\n")
@@ -39,9 +42,6 @@ l3 = paste(l2,"DIA-NN Quants in")
 cat(crayon::blue(paste(l3, path_in,sep=" ")))
 cat("\n")
 cat("\n")
-
-if (identical(Exp_name, "") == TRUE)
-{sep_exp = ""} else {sep_exp = "_"}
 
 for(i in filenames_tsv)
 {
